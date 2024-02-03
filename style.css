@@ -1,0 +1,136 @@
+body {
+    font-family: "inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: #F3F5FC;
+  }
+
+  h1{
+    width: 120px;
+    height: 48px;
+    padding: 8px;
+    }
+
+  main{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .textoEncriptador{
+    width: 577px;
+    height: 488px;
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 26px;
+    margin-left: 240px;
+    margin-bottom: 5px;
+    border: none;
+    outline: none;
+    color: #0A3871;
+    background: #F3F5FC;
+  }
+
+  .textoEncriptador:placeholder{
+    color: #0A3871;
+    opacity: 0;
+  }
+
+  .textoGuia{
+    display: flex;
+    padding: 1em;
+    margin-left: 240px;
+    color: #0A3871;
+  }
+
+  .textoGuia p{
+    padding-left: 8px;
+  }
+
+  .botonesSeccion1{
+    text-align: center;
+  }
+
+  .botonEncriptar{
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    color: #FFFFFF;
+    background: #0A3871;
+    margin-left: 240px; 
+  }
+
+  .botonEncriptar:hover{
+    font-size: 50px;
+  }
+
+  .botonDesencriptar{
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    color: #0A3871;
+    background: #F3F5FC;
+    border: 1px solid #0A3871
+  }
+  .espacio2{
+    width: 400px;
+    height: 650px;
+    border-radius: 32px;
+    background: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    margin-right: 35px;
+    margin-bottom: 35px;
+  }
+
+  .imagenMuneco{
+   margin-top: 93px;
+  }
+
+  .mensaje{
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #343A40;
+
+  }
+
+  .mensaje p{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color:#495057;
+  }
+
+  .copiar{
+    margin-top: 64px;
+    text-align: center;
+  }
+
+  .botonCopiar{
+    width: 300px;
+    height: 50px;
+    border-radius: 24px;
+    color: #0A3871;
+    background: #FFFFFF;
+    border: 1px solid #0A3871;
+  }
+
+  footer{
+    text-align: center;
+    color: #0A3871;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+
+
