@@ -8,6 +8,7 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <title>Encriptar de texto</title>
     </head>
         
     <body>
@@ -17,24 +18,24 @@
         <main>
              <section class="espacio1">
                <div>
-                    <textarea class="textoEncriptador" placeholder="Ingrese el texto aqui"></textarea>
+                    <textarea class="textoEncriptador" id="textoEncriptar" placeholder="Ingrese el texto aqui"></textarea>
                </div>
 
                 <div class="textoGuia">
                     <img class="imagenAlerta" src="imagenes/bi_exclamation-circle-fill.png" alt="imagen Alerta">
-                    <p>Solo letras minusculoas sin acentos.</p>
+                    <p>Solo letras minusculas y sin acentos.</p>
                 </div>
 
                 <div class="botonesSeccio1">
-                    <input type="button" value="Encriptar" class="botonEncriptar">
-                    <input type="button" value="Desencriptar" class="botonDesencriptar">
+                    <input id="btnEncriptar" type="button" value="Encriptar" class="botonEncriptar" disabled>
+                    <input id="btnDesencriptar" type="button" value="Desencriptar" class="botonDesencriptar" onclick="desencriptartexto()" disable>
                 </div>
                 
             </section>
         
             <section class="espacio2">
                 
-                <div class="imagenMuneco">
+                <div id="muneco" class="imagenMuneco">
                     <img src="imagenes/Muñeco.png" alt="Muñeco">
                 </div>
                 <div class="mensaje">
@@ -43,17 +44,22 @@
                 </div>
 
                 <div class="copiar"> 
-                    <input type="button" value="Copiar" class="botonCopiar">
+                    <input id="btnCopiar" type="button" value="Copiar" class="botonCopiar">
                 </div>
 
-                <div class="resultado">
-                    <p class="textoResultado"></p>
+                <div id="resultado" class="resultado">
+                    <p id="textoEncriptado" id="textoDesencriptado" class="textoResultado"></p>
+                    <p id="textoDesencriptado" class="textoResultado"></p>
                 </div>
             </section>
 
         </main>
+
+        <script src="encriptador.js"></script>
     
     </body>
 
-    <footer>Realizado por Brayan Castro<br>Cadiddato Oracle One.</footer>
+    <footer>Brayan Castro<br>Candidato al programa One.<br><a href="https://github.com/bjcastr"><img src="imagenes/png-transparent-github-computer-icons-logo-repository-github-white-cat-like-mammal-carnivoran.png" class="github" alt="logo github"></a>
+        <a href="www.linkedin.com/in/castrobrayan"><img src="imagenes/png-transparent-computer-icons-linkedin-logo-linkedin-white-angle-text-logo.png" class="linkedin" alt="logo linkedin"></a>
+    </footer>
 </html>
